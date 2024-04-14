@@ -11,7 +11,7 @@ import
 let
   discord =
     newDiscordClient(
-      "NzQwMDk3MTcwOTcxMDMzNjQx.GFxaQ5.1-Ty45OOifrqBB6kROWQdORc-JCfLM9iaBpSDU"
+      getEnv("DISCORD_TOKEN")
     )
 
 var
